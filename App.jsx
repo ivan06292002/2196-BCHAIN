@@ -4,9 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Hello from './components/hello'
 import Welcome from './components/welcome'
-import TodoList from './components/TodoList'
-import BookList from './components/BookList'
-import MovieList from './components/MovieList'
 
 
 
