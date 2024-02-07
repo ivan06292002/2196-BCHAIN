@@ -21,3 +21,5 @@ contract LocalVariables {
 }
 
 //Insight here
+//The foo function demonstrates the usage of local variables (x and f) and assigns their values to public state variables (i, b, and myAddress) within the Solidity smart contract. 
+//The contract essentially showcases basic variable manipulation and state updates in a Solidity contract.
