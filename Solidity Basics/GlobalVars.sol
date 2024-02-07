@@ -26,3 +26,9 @@ contract GlobalVariables {
 }
 
 //Insight here
+//These features leverage numerous international variables supplied by the Ethereum blockchain and Solidity.
+//Msg.Sender and block.Timestamp are typically used for authentication and timestamping.
+//Gas-related capabilities (tx.Gasprice, gasleft(), block.Gaslimit) offer insights into fuel-associated parameters for transaction execution.
+//Cope with(this) is used to reap the settlement's own cope with.
+//Block.Coinbase gives the cope with of the miner who mined the block.
+//These functionalities can be beneficial for diverse functions, such as auditing, monitoring fuel intake, and understanding transaction context within the Ethereum blockchain.
