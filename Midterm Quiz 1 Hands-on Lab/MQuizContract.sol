@@ -27,7 +27,7 @@ constructor() {
 owner = msg.sender;
 }
 
-function setNewAge(uint256 _age) public onlyOwner {
+function setNewAge(uint256 _age) public  {
 newAge = _age;
 }
 
