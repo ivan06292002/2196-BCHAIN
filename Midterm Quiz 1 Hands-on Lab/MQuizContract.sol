@@ -27,15 +27,15 @@ constructor() {
 owner = msg.sender;
 }
 
-function setNewAge(uint256 _age) public  {
+function setNewAge(uint256 _age) public onlyOwner {
 newAge = _age;
 }
 
-function setWorkedHours(uint256 _hoursWorked) public onlyOwner hoursWorkedGreaterThanZero(_hoursWorked) {
+function setWorkedHours(uint256 _hoursWorked) public hoursWorkedGreaterThanZero(_hoursWorked) {
 workedHours = _hoursWorked;
 }
 
-function setHourlyRate(uint256 _hourlyRate) public rateGreaterThanZero(_hourlyRate) {
+function setHourlyRate(uint256 _hourlyRate) public onlyOwner rateGreaterThanZero(_hourlyRate) {
 ratePerHour = _hourlyRate;
 }
 
